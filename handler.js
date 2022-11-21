@@ -59,7 +59,7 @@ var QVCScraper = /** @class */ (function () {
                             language: "en",
                             image: "https://corporate.qvc.com/wp-content/plugins/newsroom/themes/qvc-corporate/images/QVC_PrimaryLogo.png",
                             favicon: "https://corporate.qvc.com/wp-content/plugins/newsroom/themes/qvc-corporate/images/favicon/favicon-196x196.png",
-                            copyright: "2022 © Athletics Ireland. All Rights Reserved.",
+                            copyright: "2022 © QVC. All Rights Reserved.",
                             updated: new Date(),
                             generator: "AWS Lambda",
                             feedLinks: {
