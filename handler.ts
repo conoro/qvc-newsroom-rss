@@ -1,8 +1,6 @@
 // QVC Newsroom RSS - Copyright Conor O'Neill 2022, conor@conoroneill.com
 // LICENSE Apache-2.0
 
-// Output is currently at https://2n3wfjo1h9.execute-api.eu-west-1.amazonaws.com/
-
 import { Handler } from 'aws-lambda';
 import axios from 'axios';
 import cheerio from 'cheerio';
