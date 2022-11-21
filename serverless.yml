@@ -1,0 +1,19 @@
+service: qvc-newsroom-rss
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: eu-west-1
+
+
+functions:
+  rss:
+    handler: handler.rss
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+plugins:
+  - serverless-plugin-typescript
